@@ -100,6 +100,11 @@ discordClient.on('messageCreate', (message) => {
 
         message.reply({ embeds: [helpEmbed] });
     }
+        // --- LỆNH !RECONNECT ---
+    if (msg === '!reconnect') {
+        message.reply('🔄 Đang khởi động lại kết nối bot...');
+        startBot(); // Gọi lại hàm khởi tạo để ép reconnect
+    }
     
     // Lệnh Chat vào game
     if (msg.startsWith('!chat ')) {
