@@ -1,10 +1,10 @@
 {
-  "name": "mc-bot-render",
+  "name": "mc-bot-pe-fixed",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
     "mineflayer": "^4.20.0",
-    "bedrock-protocol": "^3.0.0",
+    "bedrock-protocol": "^3.27.1",
     "mineflayer-pathfinder": "^2.4.5",
     "minecraft-data": "^3.67.0",
     "discord.js": "^14.14.1",
