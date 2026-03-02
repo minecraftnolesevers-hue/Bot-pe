@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer');
-const { bedrock } = require('mineflayer-bedrock');
+const { createBot } = require('mineflayer');
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder'); // Thêm goals
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const express = require('express');
