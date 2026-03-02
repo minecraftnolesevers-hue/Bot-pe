@@ -35,8 +35,9 @@ function startBot() {
         port: CONFIG.MC_PORT,
         username: CONFIG.MC_USER,
         offline: true, // Đặt true cho server lậu/Aternos
-        version: CONFIG.MC_VER
-        connectTimeout: 60000, // Đợi tối đa 60 giây để kết nối
+        version: CONFIG.MC_VER,
+        connectTimeout: 60000,
+        skipPing: true,// Đợi tối đa 60 giây để kết nối
     });
 
     // Khi bot vào game
